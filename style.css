@@ -1,0 +1,26 @@
+body {
+    position: relative;
+}
+
+#propic {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+#pro-pic-col {
+    /*background: #B9B8B6*/
+
+    /*This will need to be addressed.*/
+    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+}
+
+
+#about {
+    background: hotpink;
+}
+
+#resume {
+    height: 100vh;
+    width: 125vh;
+}
