@@ -5,22 +5,34 @@ body {
 #propic {
     margin: auto;
     width: 100%;
-    max-width: 100%;
 }
 
 #pro-pic-col {
-    /*background: #B9B8B6*/
-
-    /*This will need to be addressed.*/
-    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+    background: linear-gradient(to bottom, #AAA7A0, #CED5D5);
 }
 
+#intro-col {
+    background: linear-gradient(to bottom, #AAA7A0, #CED5D5);
+}
+
+/*.vertical-center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit /
+    min-height: 100vh; /* These two lines are counted as one :-)       /
+
+    display: flex;
+    align-items: center;
+}*/
+
+.total-center {
+    padding: 70px 0;
+    text-align: center;
+}
 
 #about {
     background: hotpink;
 }
 
-#resume {
+.modal-body {
     height: 100vh;
-    width: 125vh;
+    width: 120vh;
 }
