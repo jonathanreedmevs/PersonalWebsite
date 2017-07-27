@@ -7,13 +7,17 @@ body {
     width: 100%;
 }
 
-#pro-pic-col {
+.intro-row{ 
+    background: linear-gradient(to bottom right, #AAA7A0, #CED5D5);
+}
+
+/*#pro-pic-col {
     background: linear-gradient(to bottom, #AAA7A0, #CED5D5);
 }
 
 #intro-col {
     background: linear-gradient(to bottom, #AAA7A0, #CED5D5);
-}
+}*/
 
 /*.vertical-center{
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit /
@@ -22,6 +26,16 @@ body {
     display: flex;
     align-items: center;
 }*/
+
+.icon-list {
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    float:left;
+    padding:10px;
+}
 
 .total-center {
     padding: 70px 0;
