@@ -23,16 +23,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <!--My JavaScript-->
-    <script src="script.js"></script>
-    <!--Personal Style Sheet    -->
-    <link rel="stylesheet" href="style.css">
+    <script src="js/home-script.js"></script>
+    <!--Personal Style Sheet-->
+    <link rel="stylesheet" href="style/home-style.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target="#myNav">
     <!--Navbar-->
     <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
         <!--Initialization-->
-        <div class="container">
+        <div class="container custom-nav">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#populatedBar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
@@ -56,6 +56,10 @@
                             <a role="button" data-toggle="modal" data-target="#transcript-modal">Unofficial Transcript</a>
                             <div class="dropdown-divider"></div>
                             <a href="#worksamples">Work Samples</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="games.html">Games</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="workspace.html">Workspace</a>
                         </div>
                     </li>
                 </ul>
@@ -92,8 +96,11 @@
                     حوت أيضاً على نسخ من نص لوريم إيبسوم.
                 </p>
                 <div class="icon-list">
-                    <i class="fa fa-github fa-5x logo" aria-hidden="true"></i>
-                </div>    
+                    <a href="https://github.com/jonathanreedmevs" target="_blank"><i class="fa fa-github fa-5x logo" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/jrmevs/" target="_blank"><i class="fa fa-linkedin fa-5x logo" aria-hidden="true"></i></a>
+                    <!--<a href="https://github.com/jonathanreedmevs" target="_blank"><i class="fa fa-facebook-square fa-5x logo" aria-hidden="true"></i>-->
+                    <a onclick="alert('Coming soon!')"><i class="fa fa-twitter fa-5x logo" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -101,81 +108,76 @@
 
     <!--Location for Information To Come-->
     <div id="about" class="container-fluid">
-        <div class="row">
+        <div class="row my-row">
             <div class="col-md-6">
                 <h1>About</h1>
             </div>
             <div class="col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sem suscipit, fringilla libero vitae, porttitor nisl. Donec
-                    a libero tortor. Suspendisse maximus semper sodales. Nam quis justo quam. Aenean commodo libero nec rutrum
-                    molestie. Duis id nisi vel sapien semper interdum vel ac urna. Curabitur placerat pellentesque scelerisque.
-                    Suspendisse commodo porta libero, ut scelerisque est vulputate sit amet. Aliquam auctor nisl magna, vitae
-                    faucibus orci vestibulum et. Vivamus volutpat quam orci, sit amet pretium turpis gravida in. Etiam a
-                    leo aliquet augue finibus laoreet. Vestibulum eget nibh ac tellus convallis tristique. Nulla augue est,
-                    fermentum dictum ipsum at, tempus hendrerit sapien. Vestibulum ante ipsum primis in faucibus orci luctus
-                    et ultrices posuere cubilia Curae; Aliquam vel lorem vel nunc aliquet tincidunt. Nulla dolor lectus,
-                    ullamcorper eget condimentum eget, laoreet vehicula nisi. Pellentesque tempus ultricies arcu, et iaculis
-                    erat maximus volutpat. Aenean vehicula dictum libero sed tempus. Sed placerat in est eget scelerisque.
-                    Integer dignissim metus consectetur vulputate fermentum. Fusce eget nibh congue, cursus orci eu, bibendum
-                    erat. Quisque ut justo nec ante cursus tempor quis accumsan mi. Etiam pharetra, est sed viverra luctus,
-                    augue ligula ullamcorper nisl, quis pulvinar sem nisi eget orci. Donec vitae tortor ac nulla tempus egestas.
-                    In in elit non erat tincidunt ullamcorper id a orci. Nunc vel urna in magna auctor euismod. Nulla at
-                    rhoncus turpis. Donec sit amet ullamcorper neque. Morbi condimentum purus felis, nec molestie elit accumsan
-                    nec. Mauris tempor, nulla vel porttitor scelerisque, enim risus fermentum ligula, non aliquam lorem risus
-                    sodales magna. Nulla facilisi. Vivamus a convallis tellus. Cras non vehicula purus. Phasellus aliquam,
-                    sapien sit amet pulvinar finibus, massa justo mattis ligula, eget mollis augue est vel nibh. Aenean est
-                    dui, varius et tellus in, iaculis imperdiet urna. Praesent maximus risus at lorem rutrum ultricies. Mauris
-                    sodales efficitur magna viverra porta. Integer pharetra, nisl non ullamcorper rutrum, augue lectus elementum
-                    purus, vulputate fringilla leo odio vitae arcu. Integer molestie leo nisl, sit amet venenatis libero
-                    eleifend sit amet. Vivamus tincidunt libero purus, et aliquam magna imperdiet eu. Ut pulvinar volutpat
-                    justo, ornare suscipit urna suscipit non. Curabitur pretium turpis nec malesuada aliquam. Pellentesque
-                    non sagittis lacus. Pellentesque quis elit vel augue dignissim efficitur. Quisque quis varius odio, nec
-                    laoreet diam. Suspendisse massa nisl, vehicula a mauris sit amet, tincidunt porttitor mi. Nulla id magna
-                    eu odio feugiat mollis commodo vitae risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia Curae; Nulla tempus ipsum a leo maximus, nec pellentesque sem laoreet. Nullam interdum
-                    rutrum porta. Pellentesque eget erat vulputate tellus auctor convallis. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Maecenas faucibus, lacus a euismod tempor, mauris
-                    tellus hendrerit elit, id tincidunt augue est vel odio. Maecenas hendrerit mattis libero id rhoncus.</p>
+                    ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                    أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف)
+                    وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي
+                    كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً
+                    عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem Ipsum) هو ببساطة
+                    نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
+                    ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي
+                    أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص،
+                    بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا
+                    القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ
+                    مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص
+                    لوريم إيبسوم.</p>
             </div>
         </div>
     </div>
 
 
     <div id="from" class="container-fluid">
-        <div class="row">
+        <div class="row my-row">
             <div class="col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sem suscipit, fringilla libero vitae, porttitor nisl. Donec
-                    a libero tortor. Suspendisse maximus semper sodales. Nam quis justo quam. Aenean commodo libero nec rutrum
-                    molestie. Duis id nisi vel sapien semper interdum vel ac urna. Curabitur placerat pellentesque scelerisque.
-                    Suspendisse commodo porta libero, ut scelerisque est vulputate sit amet. Aliquam auctor nisl magna, vitae
-                    faucibus orci vestibulum et. Vivamus volutpat quam orci, sit amet pretium turpis gravida in. Etiam a
-                    leo aliquet augue finibus laoreet. Vestibulum eget nibh ac tellus convallis tristique. Nulla augue est,
-                    fermentum dictum ipsum at, tempus hendrerit sapien. Vestibulum ante ipsum primis in faucibus orci luctus
-                    et ultrices posuere cubilia Curae; Aliquam vel lorem vel nunc aliquet tincidunt. Nulla dolor lectus,
-                    ullamcorper eget condimentum eget, laoreet vehicula nisi. Pellentesque tempus ultricies arcu, et iaculis
-                    erat maximus volutpat. Aenean vehicula dictum libero sed tempus. Sed placerat in est eget scelerisque.
-                    Integer dignissim metus consectetur vulputate fermentum. Fusce eget nibh congue, cursus orci eu, bibendum
-                    erat. Quisque ut justo nec ante cursus tempor quis accumsan mi. Etiam pharetra, est sed viverra luctus,
-                    augue ligula ullamcorper nisl, quis pulvinar sem nisi eget orci. Donec vitae tortor ac nulla tempus egestas.
-                    In in elit non erat tincidunt ullamcorper id a orci. Nunc vel urna in magna auctor euismod. Nulla at
-                    rhoncus turpis. Donec sit amet ullamcorper neque. Morbi condimentum purus felis, nec molestie elit accumsan
-                    nec. Mauris tempor, nulla vel porttitor scelerisque, enim risus fermentum ligula, non aliquam lorem risus
-                    sodales magna. Nulla facilisi. Vivamus a convallis tellus. Cras non vehicula purus. Phasellus aliquam,
-                    sapien sit amet pulvinar finibus, massa justo mattis ligula, eget mollis augue est vel nibh. Aenean est
-                    dui, varius et tellus in, iaculis imperdiet urna. Praesent maximus risus at lorem rutrum ultricies. Mauris
-                    sodales efficitur magna viverra porta. Integer pharetra, nisl non ullamcorper rutrum, augue lectus elementum
-                    purus, vulputate fringilla leo odio vitae arcu. Integer molestie leo nisl, sit amet venenatis libero
-                    eleifend sit amet. Vivamus tincidunt libero purus, et aliquam magna imperdiet eu. Ut pulvinar volutpat
-                    justo, ornare suscipit urna suscipit non. Curabitur pretium turpis nec malesuada aliquam. Pellentesque
-                    non sagittis lacus. Pellentesque quis elit vel augue dignissim efficitur. Quisque quis varius odio, nec
-                    laoreet diam. Suspendisse massa nisl, vehicula a mauris sit amet, tincidunt porttitor mi. Nulla id magna
-                    eu odio feugiat mollis commodo vitae risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia Curae; Nulla tempus ipsum a leo maximus, nec pellentesque sem laoreet. Nullam interdum
-                    rutrum porta. Pellentesque eget erat vulputate tellus auctor convallis. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Maecenas faucibus, lacus a euismod tempor, mauris
-                    tellus hendrerit elit, id tincidunt augue est vel odio. Maecenas hendrerit mattis libero id rhoncus.</p>
+                    ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                    أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف)
+                    وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي
+                    كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً
+                    عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem Ipsum) هو ببساطة
+                    نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
+                    ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي
+                    أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص،
+                    بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا
+                    القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ
+                    مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص
+                    لوريم إيبسوم. ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ
+                    عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة
+                    لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا
+                    يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير
+                    صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك
+                    بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص
+                    لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم
+                    إيبسوم" ؟ لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم
+                    في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما
+                    قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي
+                    لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة
+                    والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية
+                    تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر"
+                    (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص لوريم إيبسوم.
+                    ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                    الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي
+                    توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها
+                    تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم
+                    إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع
+                    الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق
+                    الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem
+                    Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                    كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة
+                    من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن
+                    لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل
+                    كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد
+                    لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي
+                    حوت أيضاً على نسخ من نص لوريم إيبسوم.</p>
             </div>
             <div class="col-md-6">
                 <h1>Where I'm From</h1>
@@ -185,81 +187,77 @@
 
 
     <div id="am" class="container-fluid">
-        <div class="row">
+        <div class="row my-row">
             <div class="col-md-6">
                 <h1>Where I Am</h1>
             </div>
             <div class="col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sem suscipit, fringilla libero vitae, porttitor nisl. Donec
-                    a libero tortor. Suspendisse maximus semper sodales. Nam quis justo quam. Aenean commodo libero nec rutrum
-                    molestie. Duis id nisi vel sapien semper interdum vel ac urna. Curabitur placerat pellentesque scelerisque.
-                    Suspendisse commodo porta libero, ut scelerisque est vulputate sit amet. Aliquam auctor nisl magna, vitae
-                    faucibus orci vestibulum et. Vivamus volutpat quam orci, sit amet pretium turpis gravida in. Etiam a
-                    leo aliquet augue finibus laoreet. Vestibulum eget nibh ac tellus convallis tristique. Nulla augue est,
-                    fermentum dictum ipsum at, tempus hendrerit sapien. Vestibulum ante ipsum primis in faucibus orci luctus
-                    et ultrices posuere cubilia Curae; Aliquam vel lorem vel nunc aliquet tincidunt. Nulla dolor lectus,
-                    ullamcorper eget condimentum eget, laoreet vehicula nisi. Pellentesque tempus ultricies arcu, et iaculis
-                    erat maximus volutpat. Aenean vehicula dictum libero sed tempus. Sed placerat in est eget scelerisque.
-                    Integer dignissim metus consectetur vulputate fermentum. Fusce eget nibh congue, cursus orci eu, bibendum
-                    erat. Quisque ut justo nec ante cursus tempor quis accumsan mi. Etiam pharetra, est sed viverra luctus,
-                    augue ligula ullamcorper nisl, quis pulvinar sem nisi eget orci. Donec vitae tortor ac nulla tempus egestas.
-                    In in elit non erat tincidunt ullamcorper id a orci. Nunc vel urna in magna auctor euismod. Nulla at
-                    rhoncus turpis. Donec sit amet ullamcorper neque. Morbi condimentum purus felis, nec molestie elit accumsan
-                    nec. Mauris tempor, nulla vel porttitor scelerisque, enim risus fermentum ligula, non aliquam lorem risus
-                    sodales magna. Nulla facilisi. Vivamus a convallis tellus. Cras non vehicula purus. Phasellus aliquam,
-                    sapien sit amet pulvinar finibus, massa justo mattis ligula, eget mollis augue est vel nibh. Aenean est
-                    dui, varius et tellus in, iaculis imperdiet urna. Praesent maximus risus at lorem rutrum ultricies. Mauris
-                    sodales efficitur magna viverra porta. Integer pharetra, nisl non ullamcorper rutrum, augue lectus elementum
-                    purus, vulputate fringilla leo odio vitae arcu. Integer molestie leo nisl, sit amet venenatis libero
-                    eleifend sit amet. Vivamus tincidunt libero purus, et aliquam magna imperdiet eu. Ut pulvinar volutpat
-                    justo, ornare suscipit urna suscipit non. Curabitur pretium turpis nec malesuada aliquam. Pellentesque
-                    non sagittis lacus. Pellentesque quis elit vel augue dignissim efficitur. Quisque quis varius odio, nec
-                    laoreet diam. Suspendisse massa nisl, vehicula a mauris sit amet, tincidunt porttitor mi. Nulla id magna
-                    eu odio feugiat mollis commodo vitae risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia Curae; Nulla tempus ipsum a leo maximus, nec pellentesque sem laoreet. Nullam interdum
-                    rutrum porta. Pellentesque eget erat vulputate tellus auctor convallis. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Maecenas faucibus, lacus a euismod tempor, mauris
-                    tellus hendrerit elit, id tincidunt augue est vel odio. Maecenas hendrerit mattis libero id rhoncus.</p>
+                    ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                    أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف)
+                    وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي
+                    كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً
+                    عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem Ipsum) هو ببساطة
+                    نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
+                    ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي
+                    أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص،
+                    بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا
+                    القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ
+                    مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص
+                    لوريم إيبسوم.
+                                        ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                    الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي
+                    توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها
+                    تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم
+                    إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع
+                    الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق
+                    الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem
+                    Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                    كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة
+                    من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن
+                    لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل
+                    كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد
+                    لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي
+                    حوت أيضاً على نسخ من نص لوريم إيبسوم.
+                                        ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                    الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي
+                    توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها
+                    تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم
+                    إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع
+                    الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق
+                    الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem
+                    Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                    كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة
+                    من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن
+                    لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل
+                    كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد
+                    لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي
+                    حوت أيضاً على نسخ من نص لوريم إيبسوم.</p>
             </div>
         </div>
     </div>
 
 
     <div id="going" class="container-fluid">
-        <div class="row">
+        <div class="row my-row">
             <div class="col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sem suscipit, fringilla libero vitae, porttitor nisl. Donec
-                    a libero tortor. Suspendisse maximus semper sodales. Nam quis justo quam. Aenean commodo libero nec rutrum
-                    molestie. Duis id nisi vel sapien semper interdum vel ac urna. Curabitur placerat pellentesque scelerisque.
-                    Suspendisse commodo porta libero, ut scelerisque est vulputate sit amet. Aliquam auctor nisl magna, vitae
-                    faucibus orci vestibulum et. Vivamus volutpat quam orci, sit amet pretium turpis gravida in. Etiam a
-                    leo aliquet augue finibus laoreet. Vestibulum eget nibh ac tellus convallis tristique. Nulla augue est,
-                    fermentum dictum ipsum at, tempus hendrerit sapien. Vestibulum ante ipsum primis in faucibus orci luctus
-                    et ultrices posuere cubilia Curae; Aliquam vel lorem vel nunc aliquet tincidunt. Nulla dolor lectus,
-                    ullamcorper eget condimentum eget, laoreet vehicula nisi. Pellentesque tempus ultricies arcu, et iaculis
-                    erat maximus volutpat. Aenean vehicula dictum libero sed tempus. Sed placerat in est eget scelerisque.
-                    Integer dignissim metus consectetur vulputate fermentum. Fusce eget nibh congue, cursus orci eu, bibendum
-                    erat. Quisque ut justo nec ante cursus tempor quis accumsan mi. Etiam pharetra, est sed viverra luctus,
-                    augue ligula ullamcorper nisl, quis pulvinar sem nisi eget orci. Donec vitae tortor ac nulla tempus egestas.
-                    In in elit non erat tincidunt ullamcorper id a orci. Nunc vel urna in magna auctor euismod. Nulla at
-                    rhoncus turpis. Donec sit amet ullamcorper neque. Morbi condimentum purus felis, nec molestie elit accumsan
-                    nec. Mauris tempor, nulla vel porttitor scelerisque, enim risus fermentum ligula, non aliquam lorem risus
-                    sodales magna. Nulla facilisi. Vivamus a convallis tellus. Cras non vehicula purus. Phasellus aliquam,
-                    sapien sit amet pulvinar finibus, massa justo mattis ligula, eget mollis augue est vel nibh. Aenean est
-                    dui, varius et tellus in, iaculis imperdiet urna. Praesent maximus risus at lorem rutrum ultricies. Mauris
-                    sodales efficitur magna viverra porta. Integer pharetra, nisl non ullamcorper rutrum, augue lectus elementum
-                    purus, vulputate fringilla leo odio vitae arcu. Integer molestie leo nisl, sit amet venenatis libero
-                    eleifend sit amet. Vivamus tincidunt libero purus, et aliquam magna imperdiet eu. Ut pulvinar volutpat
-                    justo, ornare suscipit urna suscipit non. Curabitur pretium turpis nec malesuada aliquam. Pellentesque
-                    non sagittis lacus. Pellentesque quis elit vel augue dignissim efficitur. Quisque quis varius odio, nec
-                    laoreet diam. Suspendisse massa nisl, vehicula a mauris sit amet, tincidunt porttitor mi. Nulla id magna
-                    eu odio feugiat mollis commodo vitae risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia Curae; Nulla tempus ipsum a leo maximus, nec pellentesque sem laoreet. Nullam interdum
-                    rutrum porta. Pellentesque eget erat vulputate tellus auctor convallis. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Maecenas faucibus, lacus a euismod tempor, mauris
-                    tellus hendrerit elit, id tincidunt augue est vel odio. Maecenas hendrerit mattis libero id rhoncus.</p>
+                    ما فائدته ؟ هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                    أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف)
+                    وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي
+                    كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في
+                    نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً
+                    عن عمد كإدخال بعض العبارات الفكاهية إليها. ما هو "لوريم إيبسوم" ؟ لوريم إيبسوم(Lorem Ipsum) هو ببساطة
+                    نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
+                    ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي
+                    أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص،
+                    بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا
+                    القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ
+                    مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص
+                    لوريم إيبسوم.</p>
             </div>
             <div class="col-md-6">
                 <h1>Where I'm Going</h1>
@@ -294,7 +292,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
